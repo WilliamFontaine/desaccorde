@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ElSrw0b2LuxdHB0C8jTbovxeNDKfyhLe1U8ytldIbfLcXLGl+Jv9Fh/hs0mNldKwyMeM2hVY//Sy2hrP5kvM6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\William\\Desktop\\IUT\\Semestre 2 Partie 2\\COO + IHM\\desaccorde\\trunk\\source\\desaccorde\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

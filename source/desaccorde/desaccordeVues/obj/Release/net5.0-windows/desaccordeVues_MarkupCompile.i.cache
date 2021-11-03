@@ -1,0 +1,20 @@
+﻿desaccordeVues
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\William\Desktop\IUT\Semestre 2 Partie 2\COO + IHM\desaccorde\trunk\source\desaccorde\desaccordeVues\obj\Release\net5.0-windows\
+desaccordeVues
+none
+false
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+C:\Users\William\Desktop\IUT\Semestre 2 Partie 2\COO + IHM\desaccorde\trunk\source\desaccorde\desaccordeVues\App.xaml
+27756412220
+80-811309656
+41-1691841996
+251-223004970
+MainWindow.xaml;UC_bandeauParts\Connexion_UC.xaml;UC_bandeauParts\Utilisateur_UC.xaml;UC_menuParts\PlaylistsUserOffline_UC.xaml;UC_menuParts\PlaylistsUserOnline_UC.xaml;UC_Password\BindablePasswordBox.xaml;UC_SoundBar\SoundBarAlbum_UC.xaml;UC_SoundBar\SoundBarApp_UC.xaml;UC_SoundBar\SoundBarFavoris_UC.xaml;UC_SoundBar\SoundBarPlaylist_UC.xaml;UC_windowParts\PageAccueilAppli_UC.xaml;UC_windowParts\PageAlbumDetaillee_UC.xaml;UC_windowParts\PageAlbumsFavoris_UC.xaml;UC_windowParts\PageArtisteDetaillee_UC.xaml;UC_windowParts\PageArtistesFavoris_UC.xaml;UC_windowParts\PageAvisAlbum_UC.xaml;UC_windowParts\PageAvisMorceau_UC.xaml;UC_windowParts\PageMorceauxFavoris_UC.xaml;UC_windowParts\PagePlaylistDetaillee_UC.xaml;UC_windowParts\PageRechercheGenre_UC.xaml;UC_windowParts\PageRecherche_UC.xaml;Windows\AjouterPlaylist.xaml;Windows\CommentaireAlbum.xaml;Windows\CommentaireMorceau.xaml;Windows\Connexion.xaml;Windows\ModifierPlaylist.xaml;Windows\ModifUtilisateur.xaml;
+
+False
+

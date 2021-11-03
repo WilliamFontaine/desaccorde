@@ -1,0 +1,371 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>dessacorde.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../desaccordeBin</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="audio\2DIAMANTS.mp3" />
+    <None Remove="audio\911.mp3" />
+    <None Remove="audio\aaa.mp3" />
+    <None Remove="audio\BabyBeMine.mp3" />
+    <None Remove="audio\BeatIt.mp3" />
+    <None Remove="audio\BillieJean.mp3" />
+    <None Remove="audio\Breed.mp3" />
+    <None Remove="audio\CaMRegale.mp3" />
+    <None Remove="audio\CHIALER.mp3" />
+    <None Remove="audio\ComeAsYouAre.mp3" />
+    <None Remove="audio\CoteOuest.mp3" />
+    <None Remove="audio\DansMesNuits.mp3" />
+    <None Remove="audio\DOSE.mp3" />
+    <None Remove="audio\DrainYou.mp3" />
+    <None Remove="audio\Encore.mp3" />
+    <None Remove="audio\Flamme.mp3" />
+    <None Remove="audio\HumanNature.mp3" />
+    <None Remove="audio\InBloom.mp3" />
+    <None Remove="audio\JeTAttends.mp3" />
+    <None Remove="audio\JeTePromets.mp3" />
+    <None Remove="audio\JoublieraiTonNom.mp3" />
+    <None Remove="audio\Laura.mp3" />
+    <None Remove="audio\Lenvie.mp3" />
+    <None Remove="audio\Lithium.mp3" />
+    <None Remove="audio\LoungeAct.mp3" />
+    <None Remove="audio\MOROSE.mp3" />
+    <None Remove="audio\OG.mp3" />
+    <None Remove="audio\OnAPlain.mp3" />
+    <None Remove="audio\PASSION.mp3" />
+    <None Remove="audio\Polly.mp3" />
+    <None Remove="audio\PYT.mp3" />
+    <None Remove="audio\Shoot.mp3" />
+    <None Remove="audio\SmellsLikeTeenSpirit.mp3" />
+    <None Remove="audio\SoleilNoir.mp3" />
+    <None Remove="audio\SomethingInTheWay.mp3" />
+    <None Remove="audio\SousLeRegardDesAnges.mp3" />
+    <None Remove="audio\StayAway.mp3" />
+    <None Remove="audio\TerritorialPissing.mp3" />
+    <None Remove="audio\TheGirlIsMine.mp3" />
+    <None Remove="audio\TheLadyInMyLife.mp3" />
+    <None Remove="audio\THEVIERADIO.mp3" />
+    <None Remove="audio\Thriller.mp3" />
+    <None Remove="audio\TonFils.mp3" />
+    <None Remove="audio\TouteSeule.mp3" />
+    <None Remove="audio\TuPeuxChercher.mp3" />
+    <None Remove="audio\Vantablack.mp3" />
+    <None Remove="audio\VIVREUNPEU.mp3" />
+    <None Remove="audio\WannaBeStartin.mp3" />
+    <None Remove="audio\YOUVOI.mp3" />
+    <None Remove="audio\ZWAAR.mp3" />
+    <None Remove="icones\add.png" />
+    <None Remove="icones\addPlaylist.png" />
+    <None Remove="icones\album.png" />
+    <None Remove="icones\artiste.png" />
+    <None Remove="icones\commentaire.png" />
+    <None Remove="icones\dessacorde.png" />
+    <None Remove="icones\dislike.png" />
+    <None Remove="icones\goToAlbum.png" />
+    <None Remove="icones\like.png" />
+    <None Remove="icones\list.png" />
+    <None Remove="icones\morceau.png" />
+    <None Remove="icones\next.png" />
+    <None Remove="icones\pause.png" />
+    <None Remove="icones\play.png" />
+    <None Remove="icones\playlist.png" />
+    <None Remove="icones\previous.png" />
+    <None Remove="ImagesMusiques\47ter.png" />
+    <None Remove="ImagesMusiques\7jaws.jpg" />
+    <None Remove="ImagesMusiques\alphawann.png" />
+    <None Remove="ImagesMusiques\BeatIt.jpg" />
+    <None Remove="ImagesMusiques\BillieJean.jpg" />
+    <None Remove="ImagesMusiques\Carmel.jpg" />
+    <None Remove="ImagesMusiques\columbine.jpg" />
+    <None Remove="ImagesMusiques\CoteOuest.jpg" />
+    <None Remove="ImagesMusiques\Dalton.jpg" />
+    <None Remove="ImagesMusiques\Damso.jpg" />
+    <None Remove="ImagesMusiques\dondadamixtape.jpg" />
+    <None Remove="ImagesMusiques\Gang.jpg" />
+    <None Remove="ImagesMusiques\JeTAttends.jpg" />
+    <None Remove="ImagesMusiques\JohnnyHallyday.jpg" />
+    <None Remove="ImagesMusiques\MJ.jpg" />
+    <None Remove="ImagesMusiques\Nekfeu.jpg" />
+    <None Remove="ImagesMusiques\Nevermind.jpg" />
+    <None Remove="ImagesMusiques\Ninho.jpg" />
+    <None Remove="ImagesMusiques\nirvana.jpg" />
+    <None Remove="ImagesMusiques\QALF.jpg" />
+    <None Remove="ImagesMusiques\QALFInfinity.jpg" />
+    <None Remove="ImagesMusiques\SmellsLikeTeenSpirit.jpg" />
+    <None Remove="ImagesMusiques\SoleilNoir.jpg" />
+    <None Remove="ImagesMusiques\TheGirlIsMine.jpg" />
+    <None Remove="ImagesMusiques\Thriller.jpg" />
+    <None Remove="ImagesMusiques\ThrillerM.jpg" />
+    <None Remove="ImagesMusiques\YGPablo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="audio\2DIAMANTS.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\911.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\aaa.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\BabyBeMine.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\BeatIt.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\BillieJean.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Breed.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\CaMRegale.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\CHIALER.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\ComeAsYouAre.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\CoteOuest.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\DansMesNuits.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\DOSE.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\DrainYou.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Encore.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Flamme.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\HumanNature.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\InBloom.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\JeTAttends.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\JeTePromets.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\JoublieraiTonNom.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Laura.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Lenvie.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Lithium.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\LoungeAct.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\MOROSE.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\OG.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\OnAPlain.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\PASSION.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Polly.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\PYT.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Shoot.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\SmellsLikeTeenSpirit.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\SoleilNoir.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\SomethingInTheWay.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\SousLeRegardDesAnges.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\StayAway.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\TerritorialPissing.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\TheGirlIsMine.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\TheLadyInMyLife.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\THEVIERADIO.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\Thriller.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\TonFils.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\TouteSeule.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\TuPeuxChercher.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\VANTABLACK.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\VIVREUNPEU.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\WannaBeStartin.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\YOUVOI.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\ZWAAR.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\47ter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\7jaws.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\alphawann.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\BeatIt.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\BillieJean.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Carmel.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\CoteOuest.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Dalton.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Damso.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Gang.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\JeTAttends.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\JohnnyHallyday.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\MJ.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Nekfeu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Nevermind.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Ninho.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\nirvana.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\QALF.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\QALFInfinity.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\SmellsLikeTeenSpirit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\SoleilNoir.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\TheGirlIsMine.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Thriller.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\ThrillerM.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Vald.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\Desaccorde.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\CeMondeEstCruel.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\YGPablo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.5" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.8.0" />
+    <PackageReference Include="NAudio" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icones\dessacorde.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="ImagesMusiques\columbine.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagesMusiques\dondadamixtape.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modele\Modele.csproj" />
+    <ProjectReference Include="..\Mongo\Mongo.csproj" />
+    <ProjectReference Include="..\Stub\Stub.csproj" />
+  </ItemGroup>
+
+</Project>

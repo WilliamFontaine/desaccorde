@@ -1,0 +1,120 @@
+﻿<mah:MetroWindow xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                 x:Class="desaccordeVues.Windows.Connexion"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:local="clr-namespace:desaccordeVues.Windows" 
+                 xmlns:password_uc="clr-namespace:desaccordeVues.Password_UC"
+                 mc:Ignorable="d"
+                 Title="Connexion" Height="700" Width="1100"
+                 Background="{StaticResource QuinaryColor}">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="MinWidth" Value="250"/>
+        </Style>
+    </Window.Resources>
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <DockPanel>
+        <TextBlock Text="Connexion" DockPanel.Dock="Top" FontSize="27" TextAlignment="Center"/>
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Connexion" 
+                    Grid.Column="0" 
+                    Click="Connexion_Click"
+                    Width="200"
+                    Height="40"
+                    Margin="7"
+                    Background="{StaticResource ButtonColor}"/>
+            <Button Content="Annuler" 
+                    Grid.Column="1" 
+                    Click="Annuler_Click"
+                    Width="200"
+                    Height="40"
+                    Margin="7"
+                    Background="{StaticResource ButtonColor}"/>
+            <Button Content="Inscription" 
+                    Grid.Column="2" 
+                    Click="Inscription_Click"
+                    Width="200"
+                    Height="40"
+                    Margin="7"
+                    Background="{StaticResource ButtonColor}"/>
+        </Grid>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Connectez-vous" FontSize="27" TextAlignment="Center" Grid.Column="0"/>
+            <TextBlock Text="Créer un compte" FontSize="27" TextAlignment="Center" Grid.Column="1"/>
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Email :" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Password :" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBox Grid.Column="1" Text="{Binding ConnectEmail}"/>
+                <password_uc:BindablePasswordBox Grid.Column="1" Grid.Row="5" Password="{Binding ConnectMdp}"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Nom :" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Prenom :" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Pseudo :" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Naissance :" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Email :" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Password :" Grid.Row="5" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Text="Image :" Grid.Row="6" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="20"/>
+                <TextBox Grid.Column="1" Text="{Binding Nom}"/>
+                <TextBox Grid.Column="1" Text="{Binding Prenom}" Grid.Row="1"/>
+                <TextBox Grid.Column="1" Text="{Binding Pseudo}" Grid.Row="2"/>
+                <TextBox Grid.Column="1" Text="{Binding Naissance}" Grid.Row="3"/>
+                <TextBox Grid.Column="1" Text="{Binding Email}" Grid.Row="4"/>
+                <password_uc:BindablePasswordBox Grid.Column="1" Grid.Row="5" Password="{Binding Mdp}"/>
+                <Button Grid.Column="1" 
+                        Grid.Row="6" 
+                        Content="Parcourir" 
+                        HorizontalAlignment="Left"
+                        Margin="15" 
+                        Width="200"
+                        Height="40"
+                        Click="Parcourir_Click"
+                    Background="{StaticResource ButtonColor}"/>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</mah:MetroWindow>

@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="desaccordeVues.UC_windowParts.PageMorceauxFavoris_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:desaccordeVues.UC_windowParts"
+             xmlns:iconsPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             x:Name="root">
+    <UserControl.Resources>
+        <CollectionViewSource Source="{Binding Mgr.CurrentUser.Playlists, ElementName=root}" x:Key="playlists"/>
+    </UserControl.Resources>
+    <DockPanel Background="{StaticResource QuinaryColor}">
+        <WrapPanel DockPanel.Dock="Top"
+                   Margin="0,10,0,10">
+            <iconsPacks:PackIconBootstrapIcons Kind="MusicNoteBeamed"
+                   Width="64"
+                   Height="64"
+                   Margin="50,0,20,0"/>
+            <TextBlock Text="Favoris"
+                       VerticalAlignment="Center"
+                       FontSize="36"/>
+        </WrapPanel>
+        <Border DockPanel.Dock="Top"
+                BorderThickness="0,4,0,4"
+                BorderBrush="{StaticResource Border}">
+            <WrapPanel Margin="0,10">
+                <Button HorizontalAlignment="Left"
+                    Margin="20,0"
+                    Click="Play_Click"
+                    ToolTip="Lancer la lecture">
+                    <iconsPacks:BootstrapIcons Kind="PlayFill" Height="32" Width="32"/>
+                </Button>
+                <Button HorizontalAlignment="Left"
+                    Click="Random_Click"
+                    ToolTip="Lancer la lecture">
+                    <iconsPacks:BootstrapIcons Kind="Shuffle" Height="32" Width="32"/>
+                </Button>
+            </WrapPanel>
+        </Border>
+        <ListView ItemsSource="{Binding MorceauxTriés}"
+                  IsSynchronizedWithCurrentItem="True"
+                  Name="lv"
+                  SelectedItem="{Binding Mgr.CurrentMorceau}"
+                  MouseDoubleClick="Double_Click"
+                  Background="{StaticResource QuaternaryColor}">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="{Binding ElementName=lv, Path=ActualWidth, Converter={StaticResource widthConverter}, ConverterParameter=12}">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Image, Converter={StaticResource string2ImageConverter}}"
+                                       Width="40"
+                                       Height="40"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Titre}"
+                                    Width="{Binding ElementName=lv, Path=ActualWidth, Converter={StaticResource widthConverter}, ConverterParameter=6}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Click="TitreSort_Click">Titre</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding}"
+                                    Width="{Binding ElementName=lv, Path=ActualWidth, Converter={StaticResource widthConverter}, ConverterParameter=6}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Click="AuteurSort_Click">Auteur</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Parution, StringFormat='dd MMM yyyy', ConverterCulture=fr-fr}"
+                                    Width="{Binding ElementName=lv, Path=ActualWidth, Converter={StaticResource widthConverter}, ConverterParameter=6}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Click="DateSort_Click">Date</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                        <GridViewColumn Header="Durée"
+                                        DisplayMemberBinding="{Binding Duree}"
+                                        Width="{Binding ElementName=lv, Path=ActualWidth, Converter={StaticResource widthConverter}, ConverterParameter=6}"/>
+                    <GridViewColumn Header="Genre"
+                                    DisplayMemberBinding="{Binding Genre}"
+                                    Width="{Binding ElementName=lv, Path=ActualWidth, Converter={StaticResource widthConverter}, ConverterParameter=6}"/>
+                </GridView>
+            </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Supprimer des favoris"
+                              Click="SupprimerFavoris_Click"/>
+                    <MenuItem Header="Ajouter à la playlist"
+                              ItemsSource="{Binding Source={StaticResource playlists}}">
+                        <MenuItem.ItemTemplate>
+                            <DataTemplate>
+                                <MenuItem Header="{Binding Titre}"
+                                          Click="MenuItemPlaylistMorceau_Click"/>
+                            </DataTemplate>
+                        </MenuItem.ItemTemplate>
+                    </MenuItem>
+                </ContextMenu>
+            </ListView.ContextMenu>
+        </ListView>
+
+    </DockPanel>
+</UserControl>

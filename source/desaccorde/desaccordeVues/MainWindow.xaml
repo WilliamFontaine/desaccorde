@@ -1,0 +1,254 @@
+﻿<mah:MetroWindow xmlns:UC_windowParts="clr-namespace:desaccordeVues.UC_windowParts"  
+                 xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                 xmlns:UC_bandeauParts="clr-namespace:desaccordeVues.UC_bandeauParts"
+                 x:Class="desaccordeVues.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:local="clr-namespace:desaccordeVues"
+                 xmlns:my="clr-namespace:Modele;assembly=Modele"
+                 xmlns:system="clr-namespace:System;assembly=mscorlib"
+                 xmlns:conv="clr-namespace:desaccordeVues.converters"
+                 xmlns:iconsPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                 mc:Ignorable="d"
+                 Title="Désaccordé" MinHeight="700" MinWidth="1300" Icon="/icones/dessacorde.png" WindowStyle="ThreeDBorderWindow">
+    <Window.Resources>
+        <ObjectDataProvider MethodName="GetValues"
+                            ObjectType="{x:Type system:Enum}"
+                            x:Key="gEnum">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="my:Genre"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <conv:Bool2VisibilityConverter x:Key="bool2VisibilityConverter"/>
+        <Style x:Key="textBox_PlaceHolder" TargetType="TextBox">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <TextBlock Text="Artistes, Albums, Morceaux" Foreground="DarkGray" TextAlignment="Center" Background="White">
+                                <TextBlock.Visibility>
+                                    <MultiBinding Converter="{StaticResource bool2VisibilityConverter}">
+                                        <Binding ElementName="textBox" Path="Text.IsEmpty"/>
+                                        <Binding ElementName="textBox" Path="IsFocused"/>
+                                    </MultiBinding>
+                                </TextBlock.Visibility>
+                            </TextBlock>
+                            <TextBox x:Name="textBox"  Background="Transparent" 
+                                     KeyDown="Rechercher_KeyDown"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Background" Value="{StaticResource MahApps.Brushes.ContextMenu.Background}"/>
+        </Style>
+    </Window.Resources>
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+
+    <DockPanel>
+        <Border DockPanel.Dock="Bottom"
+                BorderThickness="0,1,0,0"
+                BorderBrush="{StaticResource Border}">
+            <Grid Height="50"
+                  Background="{StaticResource Tertiarycolor}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="6*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0"
+                            Background="{StaticResource Tertiarycolor}">
+                    <TextBlock Text="{Binding Mgr.CurrentMorceau.Titre}" 
+                           Margin="10,0,0,0" 
+                           FontSize="16"
+                           Foreground="{StaticResource TextPrimary}"/>
+                    <TextBlock Text="{Binding Mgr.CurrentMorceau}" 
+                           Margin="10,0,0,0" 
+                           FontSize="13"
+                           Foreground="{StaticResource TextSecondary}"/>
+                </StackPanel>
+                <ContentControl Grid.Column="1"
+                                DataContext="{Binding Nvr_Sound}"
+                                Content="{Binding SelectedUserControlCreator.Value, Converter={StaticResource func2WindowPartConverter}}"/>
+                <Slider Grid.Column="2"
+                        Maximum="1"
+                        Margin="30,0"
+                        ValueChanged="Slider_Value"
+                        Value="0.5"
+                        x:Name="CustomSliderVertical" 
+                        mah:SliderHelper.ThumbFillBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.ThumbFillDisabledBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.ThumbFillHoverBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.ThumbFillPressedBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.TrackFillBrush="{DynamicResource QuaternaryColor}" 
+                        mah:SliderHelper.TrackFillHoverBrush="{DynamicResource QuaternaryColor}" 
+                        mah:SliderHelper.TrackFillPressedBrush="{DynamicResource QuaternaryColor}" 
+                        mah:SliderHelper.TrackValueFillBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.TrackValueFillDisabledBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.TrackValueFillHoverBrush="{DynamicResource SecondaryColor}" 
+                        mah:SliderHelper.TrackValueFillPressedBrush="{DynamicResource SecondaryColor}">
+                </Slider>
+            </Grid>
+        </Border>
+        <StackPanel DockPanel.Dock="Left"
+                    Width="185">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#00cba0" Offset="1"/>
+                    <GradientStop Color="#17ffd1" Offset="0"/>
+                    <GradientStop Color="#72ffff" Offset="0.354"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <StackPanel.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF24BCD4" Offset="1"/>
+                    <GradientStop Color="#FF10545F" Offset="0.452"/>
+                </LinearGradientBrush>
+            </StackPanel.OpacityMask>
+            <Button Margin="0,50,0,18"
+                    Click="Acceuil_Click"
+                    Background="{StaticResource ButtonColor}"
+                    Foreground="{StaticResource TextPrimary}">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <iconsPacks:PackIconBootstrapIcons Kind="House"
+                                                           Width="20"
+                                                           Height="20"/>
+                        <TextBlock Text="Accueil" 
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="10,0"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <Button Margin="0,36,0,18" 
+                    Click="Favoris_Click"
+                    Background="{StaticResource ButtonColor}"
+                    Foreground="{StaticResource TextPrimary}">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <iconsPacks:PackIconBootstrapIcons Kind="MusicNoteBeamed"
+                                                           Height="20"
+                                                           Width="20"/>
+                        <TextBlock Text="Favoris" 
+                           Grid.Column="1"
+                           VerticalAlignment="Center"
+                           Margin="10,0"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <Button Margin="0,36,0,18" 
+                    Click="Artiste_Click"
+                    Background="{StaticResource ButtonColor}"
+                    Foreground="{StaticResource TextPrimary}">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <iconsPacks:PackIconBootstrapIcons Kind="Person"
+                                                           Width="20"
+                                                           Height="20"/>
+                        <TextBlock Text="Artistes" 
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="10,0"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <Button Margin="0,36,0,18" 
+                    Click="Album_Click"
+                    Background="{StaticResource ButtonColor}"
+                    Foreground="{StaticResource TextPrimary}">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <iconsPacks:PackIconSimpleIcons Kind="Discogs"
+                                                    Height="20"
+                                                    Width="20"/>
+                        <TextBlock Text="Albums" 
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="10,0"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <Button Margin="0,36,0,18" 
+                    Click="AjouterPlaylist_Click"
+                    Background="{StaticResource ButtonColor}"
+                    Foreground="{StaticResource TextPrimary}">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <iconsPacks:PackIconBootstrapIcons Kind="PlusCircle"
+                                                           Height="20"
+                                                           Width="20"/>
+                        <TextBlock Text="Créer une playlist" 
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="10,0"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <StackPanel Margin="0,36,0,18"
+                        Background="{StaticResource ButtonColor}">
+                <Border BorderBrush="#FFCCCCCC"
+                        BorderThickness="1" CornerRadius="3">
+                <Grid Background="{StaticResource ButtonColor}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <iconsPacks:PackIconBootstrapIcons Kind="FileEarmarkMusic"
+                                                       Margin="0,0,10,0"
+                                                       HorizontalAlignment="Right"
+                                                       VerticalAlignment="Center"
+                                                       Height="20"
+                                                       Width="20"
+                                                       Foreground="{StaticResource TextPrimary}"/>
+                        <TextBlock Text="Playlist(s) :" 
+                               Grid.Column="1"
+                               VerticalAlignment="Center"
+                               Margin="10,7"
+                               Foreground="{StaticResource TextPrimary}"/>
+                    </Grid>
+                </Border>
+                <ContentControl DataContext="{Binding Nvr_Menu}"
+                                Content="{Binding SelectedUserControlCreator.Value, Converter={StaticResource func2WindowPartConverter}}"
+                                Background="{StaticResource ButtonColor}"/>
+            </StackPanel>
+        </StackPanel>
+        <ContentControl DockPanel.Dock="Top" 
+                        DataContext="{Binding Nvr_Bandeau}"
+                        Content="{Binding SelectedUserControlCreator.Value, Converter={StaticResource func2WindowPartConverter}}"
+                        Height="50"/>
+        <ContentControl x:Name="mainPart" 
+                        DataContext="{Binding Nvr}"
+                        Content="{Binding SelectedUserControlCreator.Value, Converter={StaticResource func2WindowPartConverter}}">
+        </ContentControl>
+    </DockPanel>
+</mah:MetroWindow>

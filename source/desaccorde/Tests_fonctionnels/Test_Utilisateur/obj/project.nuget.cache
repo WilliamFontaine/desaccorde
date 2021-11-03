@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mxHm4G5wTupJ1FA2Gq/yhCx4rsja/aSmdwf0P1n719b+aIzIn+a0rd5q5Hg9YVCnzbwxLqLa7sXldag3X3IHvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\darkp\\OneDrive\\Bureau\\IUT\\Semestre 2 Partie 2\\COO + IHM\\desaccorde\\trunk\\source\\desaccorde\\Tests_fonctionnels\\Test_Utilisateur\\Test_Utilisateur.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\darkp\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

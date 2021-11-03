@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="desaccordeVues.UC_SoundBar.SoundBarFavoris_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:desaccordeVues.UC_SoundBar"
+             xmlns:iconsPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <WrapPanel Grid.Column="1" 
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+        <Button Grid.Column="1" 
+                        HorizontalAlignment="Center"
+                        Click="Precedent_Click"
+                        Height="32"
+                        Width="32"
+                        Margin="5,0">
+            <Button.Content>
+                <iconsPacks:BootstrapIcons Kind="ChevronBarLeft"/>
+            </Button.Content>
+        </Button>
+        <Button Click="Play_Click"
+                        Height="32"
+                        Width="32"
+                        Margin="5,0">
+            <Button.Content>
+                <iconsPacks:BootstrapIcons Kind="Play"/>
+            </Button.Content>
+        </Button>
+        <Button Click="Pause_Click"
+                        Height="32"
+                        Width="32"
+                        Margin="5,0">
+            <Button.Content>
+                <iconsPacks:BootstrapIcons Kind="Pause"/>
+            </Button.Content>
+        </Button>
+        <Button Click="Suivant_Click"
+                        Height="32"
+                        Width="32"
+                        Margin="5,0">
+            <Button.Content>
+                <iconsPacks:BootstrapIcons Kind="ChevronBarRight"/>
+            </Button.Content>
+        </Button>
+    </WrapPanel>
+</UserControl>
