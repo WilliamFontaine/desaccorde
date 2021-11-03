@@ -1,0 +1,101 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261.30517578125" height="296">
+    <defs />
+    <g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="631" y="447" width="241.30517578125" height="44" opacity="0.2" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <rect fill="#ffffff" stroke="none" x="624" y="440" width="241.30517578125" height="44" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 624 440 L 865.30517578125 440 L 865.30517578125 484 L 624 484 L 624 440 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 624 465 L 865.30517578125 465" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 624 475 L 865.30517578125 475" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="718.99853515625" y="459.5">Manager</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="703" y="215" width="140.87890625" height="132" opacity="0.2" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <rect fill="#ffffff" stroke="none" x="696" y="208" width="140.87890625" height="132" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 696 208 L 836.87890625 208 L 836.87890625 340 L 696 340 L 696 208 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 696 233 L 836.87890625 233" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 696 243 L 836.87890625 243" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="721.27587890625" y="227.5">JoueurMorceau</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="701" y="260.5">+MonterVolume()</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="701" y="275.5">+BaisserVolume()</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="701" y="290.5">+Play()</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="701" y="305.5">+Pause()</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="701" y="320.5">+MusiquePrecedente()</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="701" y="335.5">+MusiqueSuivante()</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 747 439 L 758 341" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 761.0496582894774 351.5688024069628 L 758 341 L 752.6831622058071 350.6297059077753" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="700.5" y="355.5">+/Player</text>
+            </g>
+        </g>
+        <g transform="translate(-614,-198) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="764.5" y="369.5">1</text>
+            </g>
+        </g>
+    </g>
+</svg>

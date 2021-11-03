@@ -1,0 +1,329 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.34326171875" height="533">
+    <defs />
+    <g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="1135" y="455" width="358.34326171875" height="102" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#ffadad" stroke="none" x="1128" y="448" width="358.34326171875" height="102" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1128 448 L 1486.34326171875 448 L 1486.34326171875 550 L 1128 550 L 1128 448 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1128 473 L 1486.34326171875 473" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1128 483 L 1486.34326171875 483" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1281.517578125" y="467.5">Manager</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1133" y="500.5">+RechercherMorceau(value: string): Morceau[*]</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1133" y="515.5">+RechercherArtiste(value: string): Artiste[*]</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1133" y="530.5">+RechercherAlbum(value: string): Album[*]</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1133" y="545.5">+RechercherGenre(genre: string): Morceau[*]</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="743" y="497" width="262.74609375" height="60" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="997.80517578125" y="479" width="16.94091796875" height="22" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="736" y="490" width="262.74609375" height="60" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 736 490 L 998.74609375 490 L 998.74609375 550 L 736 550 L 736 490 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 736 528 L 998.74609375 528" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="835.212646484375" y="507.5">«interface»</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="834.133544921875" y="522.5">IRecherche</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="741" y="545.5">+Rechercher(value: T): IEnumerable&lt;T&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="990.80517578125" y="472" width="16.94091796875" height="22" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 990.80517578125 472 L 1007.74609375 472 L 1007.74609375 494 L 990.80517578125 494 L 990.80517578125 472 Z Z" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="995.80517578125" y="489.5">T</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1127 504 L 1010 507" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1020.0514348286198 502.5313695737947 L 1010 507 L 1020.267236604958 510.9476388509854" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1025.5" y="525.5">+/Rechercheur</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1028.58544921875" y="499.5">*</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="767" y="735" width="242.74609375" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="760" y="728" width="242.74609375" height="57" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 760 728 L 1002.74609375 728 L 1002.74609375 785 L 760 785 L 760 728 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 760 753 L 1002.74609375 753" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 760 763 L 1002.74609375 763" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="824.650390625" y="747.5">RechercheMorceau</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="780.5">+Rechercher(value: T): IEnumerable&lt;T&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="439" y="711" width="242.74609375" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="432" y="704" width="242.74609375" height="57" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 432 704 L 674.74609375 704 L 674.74609375 761 L 432 761 L 432 704 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 432 729 L 674.74609375 729" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 432 739 L 674.74609375 739" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="503.5185546875" y="723.5">RechercheArtiste</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="756.5">+Rechercher(value: T): IEnumerable&lt;T&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="367" y="519" width="242.74609375" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="360" y="512" width="242.74609375" height="57" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 360 512 L 602.74609375 512 L 602.74609375 569 L 360 569 L 360 512 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 360 537 L 602.74609375 537" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 360 547 L 602.74609375 547" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="431.515380859375" y="531.5">RechercheAlbum</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="365" y="564.5">+Rechercher(value: T): IEnumerable&lt;T&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="743" y="279" width="242.74609375" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="736" y="272" width="242.74609375" height="57" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 736 272 L 978.74609375 272 L 978.74609375 329 L 736 329 L 736 272 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 736 297 L 978.74609375 297" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 736 307 L 978.74609375 307" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="805.70947265625" y="291.5">RechercheGenrre</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="741" y="324.5">+Rechercher(value: T): IEnumerable&lt;T&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 880 727 L 873 551" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 882.2201404536316 570.9747092598442 L 873 551 L 865.3953714683897 571.6438762081209" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 882.2201404536316 570.9747092598442 L 873 551 L 865.3953714683897 571.6438762081209 L 882.2201404536316 570.9747092598442" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 595 703 L 814 551" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 802.1027988670241 569.5055830819111 L 814 551 L 792.501985114702 555.6728316887629" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 802.1027988670241 569.5055830819111 L 814 551 L 792.501985114702 555.6728316887629 L 802.1027988670241 569.5055830819111" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 604 531 L 735 521" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 715.3744224442804 530.9416651323828 L 735 521 L 714.0928021942544 514.1524398570419" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 715.3744224442804 530.9416651323828 L 735 521 L 714.0928021942544 514.1524398570419 L 715.3744224442804 530.9416651323828" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 859 330 L 869 471" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 859.1641560893775 451.3211744617249 L 869 471 L 875.9600390560076 450.129977088205" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 859.1641560893775 451.3211744617249 L 869 471 L 875.9600390560076 450.129977088205 L 859.1641560893775 451.3211744617249" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 920 672 L 1021 672 L 1031 682 L 1031 695 L 920 695 L 920 672" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 920 672 L 1021 672 L 1031 682 L 1031 695 L 920 695 L 920 672 L 920 672" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1021 672 L 1021 682 L 1031 682 L 1021 672" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="925" y="690">T -&gt; Morceau</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 664 656 L 741 656 L 751 666 L 751 679 L 664 679 L 664 656" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 664 656 L 741 656 L 751 666 L 751 679 L 664 679 L 664 656 L 664 656" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 741 656 L 741 666 L 751 666 L 741 656" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="669" y="674">T -&gt; Artiste</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 568 456 L 653 456 L 663 466 L 663 479 L 568 479 L 568 456" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 568 456 L 653 456 L 663 466 L 663 479 L 568 479 L 568 456 L 568 456" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 653 456 L 653 466 L 663 466 L 653 456" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="573" y="474">T -&gt; Album</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="#ffffff" stroke="none" d="M 880 368 L 965 368 L 975 378 L 975 391 L 880 391 L 880 368" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 880 368 L 965 368 L 975 378 L 975 391 L 880 391 L 880 368 L 880 368" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 965 368 L 965 378 L 975 378 L 965 368" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="885" y="386">T -&gt; Genre</text>
+            </g>
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 947 671 L 876 639" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 707 655 L 704 627" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 628 481 L 669 526" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-350,-262) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 886 393 L 864 400" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+    </g>
+</svg>

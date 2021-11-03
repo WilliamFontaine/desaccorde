@@ -1,0 +1,200 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1210.392578125" height="557">
+    <defs />
+    <g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="479" y="311" width="379.5126953125" height="87" opacity="0.2" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#ffadad" stroke="none" x="472" y="304" width="379.5126953125" height="87" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 472 304 L 851.5126953125 304 L 851.5126953125 391 L 472 391 L 472 304 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 472 329 L 851.5126953125 329" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 472 339 L 851.5126953125 339" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="636.102294921875" y="323.5">Manager</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="477" y="356.5">+TriDateAsc(oeuvres: Oeuvre[*]): Oeuvre[*]</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="477" y="371.5">+TriArtisteAsc(oeuvres: Oeuvre[*]): Oeuvre[*]</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="477" y="386.5">+TriMorceauAsc(Parameter1: Oeuvre[*], Parameter2: Oeuvre[*])</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="463" y="543" width="414.9580078125" height="60" opacity="0.2" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="456" y="536" width="414.9580078125" height="60" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 456 536 L 870.9580078125 536 L 870.9580078125 596 L 456 596 L 456 536 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 456 574 L 870.9580078125 574" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="631.318603515625" y="553.5">«interface»</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="654.335205078125" y="568.5">ITri</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="461" y="591.5">+Tri(oeuvres: IEnumerable&lt;Oeuvre&gt;): IEnumerable&lt;Oeuvre&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="871" y="791" width="390.392578125" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="864" y="784" width="390.392578125" height="57" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 864 784 L 1254.392578125 784 L 1254.392578125 841 L 864 841 L 864 784 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 864 809 L 1254.392578125 809" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 864 819 L 1254.392578125 819" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1013.908935546875" y="803.5">TriAlphabetique</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="869" y="836.5">+Tri(oeuvres: IEnumerable&lt;Oeuvre&gt;): IEnumerable&lt;Oeuvre&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="471" y="791" width="390.392578125" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="464" y="784" width="390.392578125" height="57" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 464 784 L 854.392578125 784 L 854.392578125 841 L 464 841 L 464 784 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 464 809 L 854.392578125 809" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 464 819 L 854.392578125 819" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="630.1875" y="803.5">TriArtistes</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="469" y="836.5">+Tri(oeuvres: IEnumerable&lt;Oeuvre&gt;): IEnumerable&lt;Oeuvre&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#C0C0C0" stroke="none" x="71" y="791" width="390.392578125" height="57" opacity="0.2" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <rect fill="#a3e0ff" stroke="none" x="64" y="784" width="390.392578125" height="57" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 64 784 L 454.392578125 784 L 454.392578125 841 L 64 841 L 64 784 Z Z" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 64 809 L 454.392578125 809" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 64 819 L 454.392578125 819" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="238.12841796875" y="803.5">TriDate</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="69" y="836.5">+Tri(oeuvres: IEnumerable&lt;Oeuvre&gt;): IEnumerable&lt;Oeuvre&gt;</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 307 783 L 612 597" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 599.0303423864617 614.7704243446123 L 612 597 L 590.2634795931615 600.3946547104372" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 599.0303423864617 614.7704243446123 L 612 597 L 590.2634795931615 600.3946547104372 L 599.0303423864617 614.7704243446123" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 659 783 L 662 597" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 670.0901550497981 617.4584796910774 L 662 597 L 653.2542737742347 617.1869332188909" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 670.0901550497981 617.4584796910774 L 662 597 L 653.2542737742347 617.1869332188909 L 670.0901550497981 617.4584796910774" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 1012 783 L 713 597" stroke-miterlimit="10" stroke-dasharray="3" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="#FFFFFF" stroke="none" d="M 734.7055493055296 600.5873568745278 L 713 597 L 725.8114967308042 614.8847854758337" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 734.7055493055296 600.5873568745278 L 713 597 L 725.8114967308042 614.8847854758337 L 734.7055493055296 600.5873568745278" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 661 392 L 663 535" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <path fill="none" stroke="#000000" d="M 658.6487724792148 524.8971875667039 L 663 535 L 667.0669846942067 524.7794503329278" stroke-miterlimit="10" />
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="690.5" y="504.5">+/Trieur</text>
+            </g>
+        </g>
+        <g transform="translate(-54,-294) scale(1,1)">
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="647.58544921875" y="519.5">*</text>
+            </g>
+        </g>
+    </g>
+</svg>
