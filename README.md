@@ -1,4 +1,5 @@
-# Projet1A
+# Projet1A - desaccorde
+
 ## Application master-détails, développée en C# et XAML. Le projet a été développé avec .NET 5.
 
 Le projet consiste en une application musicale s'apparentant à un répertoire musical.  
