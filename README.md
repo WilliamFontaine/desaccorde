@@ -2,7 +2,9 @@
 
 ## Application master-détails, développée en C# et XAML. Le projet a été développé avec .NET 5.
 
-Le projet consiste en une application musicale s'apparentant à un répertoire musical.  
+Ce projet était un projet à 2, il a été réalisé avec l'aide de Léopold Lapendéry.
+
+Le projet consiste en une application musicale s'apparentant à un répertoire musical. 
 
 Le but de cette application était de proposer une plateforme musicale répertoriant des artistes, des albums et des morceaux.  
 
