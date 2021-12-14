@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mWXFU8bY3qfAdhO0VzNamkLOdDWS4CO66bp+OxVFDTYS7puzlqMJVhSPpdXuJOH7WQ1WPYdNF6JD62HOOKq4aQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Tests_Fonctionnels\\Test_Album\\Test_Album.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\darkp\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
