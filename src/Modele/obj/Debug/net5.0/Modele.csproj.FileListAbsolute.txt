@@ -22,3 +22,15 @@ C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Modele\obj\Debug\net5.0
 C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Modele\obj\Debug\net5.0\Modele.dll
 C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Modele\obj\Debug\net5.0\ref\Modele.dll
 C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Modele\obj\Debug\net5.0\Modele.pdb
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\bin\Debug\net5.0\Modele.deps.json
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\bin\Debug\net5.0\Modele.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\bin\Debug\net5.0\ref\Modele.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\bin\Debug\net5.0\Modele.pdb
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.csproj.AssemblyReference.cache
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfoInputs.cache
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfo.cs
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Modele\obj\Debug\net5.0\Modele.pdb

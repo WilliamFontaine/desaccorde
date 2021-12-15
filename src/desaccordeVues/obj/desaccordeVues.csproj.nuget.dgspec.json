@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\desaccordeVues\\desaccordeVues.csproj": {}
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\desaccordeVues\\desaccordeVues.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\desaccordeVues\\desaccordeVues.csproj": {
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\desaccordeVues\\desaccordeVues.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\desaccordeVues\\desaccordeVues.csproj",
+        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\desaccordeVues\\desaccordeVues.csproj",
         "projectName": "desaccordeVues",
-        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\desaccordeVues\\desaccordeVues.csproj",
+        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\desaccordeVues\\desaccordeVues.csproj",
         "packagesPath": "C:\\Users\\darkp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\desaccordeVues\\obj\\",
+        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\desaccordeVues\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj"
               },
-              "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Mongo\\Mongo.csproj": {
-                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Mongo\\Mongo.csproj"
+              "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Mongo\\Mongo.csproj": {
+                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Mongo\\Mongo.csproj"
               },
-              "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Stub\\Stub.csproj": {
-                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Stub\\Stub.csproj"
+              "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Stub\\Stub.csproj": {
+                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Stub\\Stub.csproj"
               }
             }
           }
@@ -84,7 +84,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[5.0.13, 5.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -103,18 +103,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj": {
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj",
+        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj",
         "packagesPath": "C:\\Users\\darkp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\obj\\",
+        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,18 +181,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Mongo\\Mongo.csproj": {
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Mongo\\Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Mongo\\Mongo.csproj",
+        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Mongo\\Mongo.csproj",
         "projectName": "Mongo",
-        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Mongo\\Mongo.csproj",
+        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Mongo\\Mongo.csproj",
         "packagesPath": "C:\\Users\\darkp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Mongo\\obj\\",
+        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Mongo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -213,8 +213,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj"
               }
             }
           }
@@ -255,7 +255,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
+              "version": "[5.0.13, 5.0.13]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -271,18 +271,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Stub\\Stub.csproj": {
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Stub\\Stub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Stub\\Stub.csproj",
+        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Stub\\Stub.csproj",
         "projectName": "Stub",
-        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Stub\\Stub.csproj",
+        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Stub\\Stub.csproj",
         "packagesPath": "C:\\Users\\darkp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Stub\\obj\\",
+        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Stub\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -303,8 +303,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj"
               }
             }
           }
@@ -347,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

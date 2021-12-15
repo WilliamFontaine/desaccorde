@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj": {}
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj": {
+    "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\Modele.csproj",
+        "projectPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\Modele.csproj",
         "packagesPath": "C:\\Users\\darkp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Modele\\obj\\",
+        "outputPath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

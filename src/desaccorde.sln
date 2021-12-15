@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desaccordeVues", "desaccordeVues\desaccordeVues.csproj", "{1EAC41F8-A5DB-458D-897B-B2AE5A8342BC}"
 EndProject
@@ -30,8 +30,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stub", "Stub\Stub.csproj", "{73AE1866-5D43-4B22-A809-4E9F619890A9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo", "Mongo\Mongo.csproj", "{ABA5DAF2-AFBF-447B-8175-6FDBB6105CE8}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Desaccorde_Setup", "Desaccorde_Setup\Desaccorde_Setup.vdproj", "{4468E732-10A8-46D6-820F-067209F10C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,8 +89,6 @@ Global
 		{ABA5DAF2-AFBF-447B-8175-6FDBB6105CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA5DAF2-AFBF-447B-8175-6FDBB6105CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA5DAF2-AFBF-447B-8175-6FDBB6105CE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4468E732-10A8-46D6-820F-067209F10C81}.Debug|Any CPU.ActiveCfg = Debug
-		{4468E732-10A8-46D6-820F-067209F10C81}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

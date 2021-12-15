@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ijtD4iKJ5jPZgqEuUSn/33ucJ5uaWiuUi+V+epUludtrlpssM3o55QBcUUg/HDEzSAYVrOaV7b9PtdTdKDUI0Q==",
+  "dgSpecHash": "/DjaIXRWgcJ8GeW/fR/QINBavEuCOtsz3uGOzskXBN3OxN8uQj35XVPqoE+OB/8p+p1tlmIbA/PAo+r5sFV84w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\darkp\\OneDrive\\Bureau\\projet c#\\Projet1A\\src\\Tests_fonctionnels\\Test_Playlist\\Test_Playlist.csproj",
+  "projectFilePath": "C:\\Users\\darkp\\OneDrive\\Bureau\\test\\src\\Tests_fonctionnels\\Test_Playlist\\Test_Playlist.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\darkp\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",
     "C:\\Users\\darkp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\darkp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\darkp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
     "C:\\Users\\darkp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\darkp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\darkp\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"

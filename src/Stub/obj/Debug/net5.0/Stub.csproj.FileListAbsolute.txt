@@ -28,3 +28,18 @@ C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Stub\obj\Debug\net5.0\S
 C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Stub\obj\Debug\net5.0\Stub.dll
 C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Stub\obj\Debug\net5.0\ref\Stub.dll
 C:\Users\darkp\OneDrive\Bureau\projet c#\Projet1A\source\Stub\obj\Debug\net5.0\Stub.pdb
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\bin\Debug\net5.0\Stub.deps.json
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\bin\Debug\net5.0\Stub.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\bin\Debug\net5.0\ref\Stub.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\bin\Debug\net5.0\Stub.pdb
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\bin\Debug\net5.0\Modele.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\bin\Debug\net5.0\Modele.pdb
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.csproj.AssemblyReference.cache
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.csproj.CopyComplete
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\ref\Stub.dll
+C:\Users\darkp\OneDrive\Bureau\test\src\Stub\obj\Debug\net5.0\Stub.pdb
