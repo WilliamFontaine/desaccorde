@@ -2,7 +2,7 @@
 
 ## Application master-détails, développée en C# et XAML. Le projet a été développé avec .NET 5.
 
-Ce projet était un projet à 2, il a été réalisé avec l'aide de *Léopold Lapendéry*.
+Ce projet était un projet à 2, réalisé en première année de DUT informatique, il a été réalisé avec l'aide de *Léopold Lapendéry*.
 
 Le projet consiste en une application musicale s'apparentant à un répertoire musical. 
 
